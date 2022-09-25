@@ -15,6 +15,7 @@ Node.js connector for the Bybit APIs and WebSockets:
 - Robust WebSocket integration with configurable connection heartbeats & automatic reconnect then resubscribe workflows.
 - Browser support (via webpack bundle - see "Browser Usage" below).
 
+
 ## Installation
 `npm install --save bybit-api`
 
