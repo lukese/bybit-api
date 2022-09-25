@@ -28,9 +28,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Test
-        run: npm run test
-        env:
-          API_KEY_COM: ${{ secrets.API_KEY_COM }}
-          API_SECRET_COM: ${{ secrets.API_SECRET_COM }}
