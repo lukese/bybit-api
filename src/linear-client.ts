@@ -346,6 +346,12 @@ export class LinearClient extends BaseRestClient {
     return this.getPrivate('private/linear/trade/closed-pnl/list', params);
   }
 
+  getContractClosedPnl(
+    params: LinearGetClosedPnlRequest
+  ): Promise<APIResponseWithTime<any>> {
+    return this.getPrivate('contract/v3/private/position/closed-pnl', params);
+  }
+
   /**
    * Risk Limit
    */
